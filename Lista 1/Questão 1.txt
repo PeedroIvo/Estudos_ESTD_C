@@ -1,0 +1,27 @@
+(Questão 1)
+
+float preço, litros, custoTotal;
+char combustivel;
+
+imprima("Informe o combustível desejado: ");
+leia(combustivel);
+
+if (combustivel = 'gasolina')
+{
+	preço = 3.9;
+}
+else if (combustivel = 'álcool')
+{
+	preço = 3.1;
+}
+else
+{
+	imprima(Combustível inexistente);
+}
+
+imprima(Informe quantos litros deseja abastecer: );
+leia(litros);
+
+custoTotal = litros*preço;
+
+imprima("O total a pagar é ", custoTotal);
